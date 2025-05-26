@@ -1,0 +1,20 @@
+// Exemplo simples de um programa VM
+
+// Teste com push e add
+push constant 7      // Empurra o número 7 na pilha
+push constant 3      // Empurra o número 3 na pilha
+add                  // Soma os dois valores na pilha (7 + 3 = 10)
+push constant 2      // Empurra o número 2 na pilha
+sub                  // Subtrai 2 de 10 (10 - 2 = 8)
+
+// Teste com operações lógicas
+push constant 1      // Empurra o número 1 na pilha
+push constant 0      // Empurra o número 0 na pilha
+and                  // Realiza a operação lógica AND (1 AND 0 = 0)
+
+// Teste com comparação
+push constant 10     // Empurra o número 10 na pilha
+push constant 5      // Empurra o número 5 na pilha
+gt                   // Verifica se 10 > 5 (retorna verdadeiro)
+push constant 0      // Empurra 0 na pilha
+eq                   // Verifica se o topo da pilha é igual a 0 (resultado da comparação anterior)

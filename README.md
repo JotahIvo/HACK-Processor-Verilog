@@ -84,11 +84,3 @@ Para compilar e simular este projeto, você precisará de um simulador Verilog. 
 ## Synthesis (Síntese)
 
 O código foi escrito de forma a ser sintetizável e pode ser portado para uma FPGA (como Xilinx Vivado ou Intel Quartus) com modificações mínimas (principalmente na implementação da ROM e RAM usando blocos de memória da FPGA).
-
-## 👨‍💻 Autor
-
-- **[Seu Nome]** - [Seu Email] - [Seu Usuário do GitHub]
-
-## 📜 Licença
-
-Este projeto está licenciado sob a [Nome da Licença, ex: Licença MIT]. Veja o arquivo `LICENSE` para mais detalhes.

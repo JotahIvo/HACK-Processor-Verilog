@@ -85,4 +85,4 @@ Para compilar e simular este projeto, você precisará de um simulador Verilog. 
 
 O código foi escrito de forma a ser sintetizável e pode ser portado para uma FPGA (como Xilinx Vivado ou Intel Quartus) com modificações mínimas (principalmente na implementação da ROM e RAM usando blocos de memória da FPGA).
 
-teste
+teste2

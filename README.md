@@ -91,3 +91,4 @@ teste de pr 2: commit 1
 teste de pr 2: commit 2
 
 teste de pr 3: commit 1
+teste de pr 3: commit 2
